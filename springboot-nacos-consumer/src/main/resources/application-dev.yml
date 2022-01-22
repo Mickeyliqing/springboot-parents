@@ -1,0 +1,21 @@
+server:
+  port: 9092
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: springboot-nacos-consumer
+
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
+      enabled: true
+
+    nacos:
+      discovery:
+        server-addr: 172.16.0.127:8848
+
+  provide:
+    url: springboot-nacos-provide

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Maven_Programs\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="23xED9mtWt61S2Oa0jXRvlfyr1D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-kafka/src/main/resources" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAPrograms\SpringBoot\springboot-parents\springboot-kafka\src\main\resources" />
+      <recent name="D:\IDEAPrograms\SpringBoot\springboot-parents\springboot-filter-handler-listener\src\main\resources" />
+      <recent name="D:\IDEAPrograms\SpringBoot\springboot-parents\springboot-mybatisplus\src\main\resources\mapper" />
+      <recent name="D:\IDEAPrograms\SpringBoot\springboot-parents\springboot-mybatisplus\src\main\resources" />
+      <recent name="D:\IDEAPrograms\SpringBoot\springboot-parents\springboot-logger\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootNacosConsumerApplication">
+    <configuration name="GeneratorCodeConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springbootmybatisplus.config.GeneratorCodeConfig" />
+      <module name="springboot-mybatisplus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springbootmybatisplus.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootFilterHandlerListenerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-filter-handler-listener" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootfilterhandlerlistener.SpringbootFilterHandlerListenerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-kafka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootkafka.SpringbootKafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLoggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-logger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootlogger.SpringbootLoggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisplusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-mybatisplus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootmybatisplus.SpringbootMybatisplusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootNacosConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-nacos-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootnacosconsumer.SpringbootNacosConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootNacosProvideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-nacos-provide" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootnacosprovide.SpringbootNacosProvideApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootParentsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-parents" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.parents.springbootparents.SpringbootParentsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootredis.SpringbootRedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootThreadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-thread" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootthread.SpringbootThreadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GeneratorCodeConfig" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="" />
+      <created>1642667215545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642667215545</updated>
+      <workItem from="1642667219465" duration="8994000" />
+      <workItem from="1642728282742" duration="16438000" />
+      <workItem from="1642822380438" duration="2290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="225" width="511" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1642748187448">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" width="511" height="589" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1642748187448" />
+    <state width="440" height="466" key="DebuggerActiveHint" timestamp="1642735515030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="440" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1642735515030" />
+    <state x="634" y="260" key="FileChooserDialogImpl" timestamp="1642745590241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="634" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1642745590241" />
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1642759458785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458785" />
+    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1642759458785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458785" />
+    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1642759458785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458785" />
+    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1642759458785">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458785" />
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1642759458787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458787" />
+    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1642759458786">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458786" />
+    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1642759458786">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458786" />
+    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1642759458786">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458786" />
+    <state width="1877" height="288" key="GridCell.Tab.2.bottom" timestamp="1642759458787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458787" />
+    <state width="1877" height="288" key="GridCell.Tab.2.center" timestamp="1642759458787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458787" />
+    <state width="1877" height="288" key="GridCell.Tab.2.left" timestamp="1642759458787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458787" />
+    <state width="1877" height="288" key="GridCell.Tab.2.right" timestamp="1642759458787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642759458787" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1642745591560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1642745591560" />
+    <state x="334" y="180" key="new project wizard" timestamp="1642822423113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1642822423113" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springboot_parents$GeneratorCodeConfig.ic" NAME="GeneratorCodeConfig Coverage Results" MODIFIED="1642735768097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.springbootmybatisplus.config.*</FILTER>
+    </SUITE>
+  </component>
+</project>
