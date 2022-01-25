@@ -9,18 +9,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-mybatisplus" />
         <module name="springboot-kafka" />
-        <module name="springboot-redis" />
-        <module name="springboot-thread" />
-        <module name="springboot-logger" />
         <module name="springboot-nacos-provide" />
+        <module name="springboot-elasticsearch" />
+        <module name="springboot-log4j2" />
+        <module name="springboot-thread" />
+        <module name="springboot-logback" />
+        <module name="springboot-redis" />
         <module name="springboot-nacos-consumer" />
         <module name="springboot-filter-handler-listener" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-elasticsearch" target="1.8" />
       <module name="springboot-filter-handler-listener" target="1.8" />
       <module name="springboot-kafka" target="1.8" />
-      <module name="springboot-logger" target="1.8" />
+      <module name="springboot-log4j2" target="1.8" />
+      <module name="springboot-logback" target="1.8" />
       <module name="springboot-mybatisplus" target="1.8" />
       <module name="springboot-nacos-consumer" target="1.8" />
       <module name="springboot-nacos-provide" target="1.8" />
@@ -31,9 +35,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-elasticsearch" options="-parameters" />
       <module name="springboot-filter-handler-listener" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />
-      <module name="springboot-logger" options="-parameters" />
+      <module name="springboot-log4j2" options="-parameters" />
+      <module name="springboot-logback" options="-parameters" />
       <module name="springboot-mybatisplus" options="-parameters" />
       <module name="springboot-nacos-consumer" options="-parameters" />
       <module name="springboot-nacos-provide" options="-parameters" />

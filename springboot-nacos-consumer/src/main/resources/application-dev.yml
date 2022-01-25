@@ -19,3 +19,10 @@ spring:
 
   provide:
     url: springboot-nacos-provide
+
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+    level:
+      com.example.springbootnacosconsumer.client: debug

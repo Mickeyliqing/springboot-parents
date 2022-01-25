@@ -12,7 +12,15 @@
         <option value="$PROJECT_DIR$/springboot-mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-filter-handler-listener/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-logback/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-log4j2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springboot-logback/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
