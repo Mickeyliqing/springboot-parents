@@ -15,6 +15,8 @@
         <option value="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-logback/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-log4j2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-validation/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-tools/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

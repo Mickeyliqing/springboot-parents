@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-mybatisplus" />
         <module name="springboot-kafka" />
+        <module name="springboot-validation" />
         <module name="springboot-nacos-provide" />
         <module name="springboot-elasticsearch" />
         <module name="springboot-log4j2" />
         <module name="springboot-thread" />
         <module name="springboot-logback" />
         <module name="springboot-redis" />
+        <module name="springboot-tools" />
         <module name="springboot-nacos-consumer" />
         <module name="springboot-filter-handler-listener" />
       </profile>
@@ -31,6 +33,8 @@
       <module name="springboot-parents" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-thread" target="1.8" />
+      <module name="springboot-tools" target="1.8" />
+      <module name="springboot-validation" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -46,6 +50,8 @@
       <module name="springboot-parents" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
       <module name="springboot-thread" options="-parameters" />
+      <module name="springboot-tools" options="-parameters" />
+      <module name="springboot-validation" options="-parameters" />
     </option>
   </component>
 </project>

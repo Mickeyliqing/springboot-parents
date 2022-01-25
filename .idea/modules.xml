@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-parents.iml" filepath="$PROJECT_DIR$/springboot-parents.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-thread/springboot-thread.iml" filepath="$PROJECT_DIR$/springboot-thread/springboot-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-tools/springboot-tools.iml" filepath="$PROJECT_DIR$/springboot-tools/springboot-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-validation/springboot-validation.iml" filepath="$PROJECT_DIR$/springboot-validation/springboot-validation.iml" />
     </modules>
   </component>
 </project>
