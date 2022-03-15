@@ -23,6 +23,7 @@
         <module>springboot-redis</module>
         <module>springboot-nacos-provide</module>
         <module>springboot-nacos-consumer</module>
+        <module>springboot-log4j2</module>
         <module>springboot-logback</module>
         <module>springboot-mybatisplus</module>
         <module>springboot-filter-handler-listener</module>
@@ -60,6 +61,12 @@
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>springboot-nacos-consumer</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>springboot-log4j2</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
 

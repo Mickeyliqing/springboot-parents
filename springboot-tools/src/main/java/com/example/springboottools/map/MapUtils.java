@@ -44,5 +44,12 @@ public class MapUtils {
         for (String v : map.values()) {
             System.out.println("value= " + v);
         }
+
+        /**
+         * 方式：五
+         */
+        map.forEach((key, value) -> {
+
+        });
     }
 }
