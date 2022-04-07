@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
  * @Class:
  * @Discription:
  **/
-public class SpringbootHandler implements HandlerInterceptor {
+public class SpringBootHandler implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {

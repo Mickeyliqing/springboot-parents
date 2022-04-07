@@ -38,6 +38,7 @@ public class KafkaConsumer {
                      * 指定消费到数据后的操作
                      */
 
+
                 } catch (Exception e) {
                     log.error("消费异常,错误消息:{},异常信息：{}", u, e.getMessage());
                 }

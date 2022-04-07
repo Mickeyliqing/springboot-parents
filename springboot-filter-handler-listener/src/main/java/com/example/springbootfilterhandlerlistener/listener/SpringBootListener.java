@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSessionListener;
  * @Discription:
  **/
 @WebListener
-public class SpringbootListener implements HttpSessionListener {
+public class SpringBootListener implements HttpSessionListener {
 
     @Override
     public void sessionCreated(HttpSessionEvent se) {
