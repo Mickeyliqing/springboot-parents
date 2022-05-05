@@ -1,10 +1,17 @@
 package com.example.springbootthread.controller;
 
-import com.example.springbootthread.service.ThreadService;
+import com.alibaba.excel.EasyExcel;
+import com.example.springbootthread.model.RegionData2021;
+import com.example.springbootthread.service.IAsyncService;
+import com.example.springbootthread.service.impl.ThreadService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
+import javax.annotation.Resource;
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
@@ -19,6 +26,18 @@ public class ThreadController {
 
     @Autowired
     private ThreadService threadService;
+
+    @Resource
+    private IAsyncService asyncService;
+
+    @PostMapping("/saveList")
+    public boolean importRegionCode(@RequestParam("files") MultipartFile files) throws Exception {
+        List<RegionData2021> list =
+                EasyExcel.read(files.getInputStream()).sheet().head(RegionData2021.class).doReadSync();
+        asyncService.saveRegionData(list);
+        return true;
+
+    }
 
     /**
      * 异步方法无返回值，在 controller
