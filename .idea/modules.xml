@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-druid/springboot-druid.iml" filepath="$PROJECT_DIR$/springboot-druid/springboot-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-excel/springboot-excel.iml" filepath="$PROJECT_DIR$/springboot-excel/springboot-excel.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-filter-handler-listener/springboot-filter-handler-listener.iml" filepath="$PROJECT_DIR$/springboot-filter-handler-listener/springboot-filter-handler-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" filepath="$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-log4j2/springboot-log4j2.iml" filepath="$PROJECT_DIR$/springboot-log4j2/springboot-log4j2.iml" />

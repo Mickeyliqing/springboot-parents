@@ -7,24 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-mybatisplus" />
-        <module name="springboot-kafka" />
-        <module name="springboot-redisson" />
-        <module name="springboot-nacos-consumer" />
-        <module name="springboot-log4j2" />
-        <module name="springboot-elasticsearch" />
-        <module name="springboot-filter-handler-listener" />
-        <module name="springboot-thread" />
-        <module name="springboot-validation" />
-        <module name="springboot-redis" />
-        <module name="springboot-tools" />
         <module name="springboot-nacos-provide" />
+        <module name="springboot-validation" />
+        <module name="springboot-log4j2" />
+        <module name="springboot-nacos-consumer" />
+        <module name="springboot-thread" />
+        <module name="springboot-kafka" />
+        <module name="springboot-redis" />
+        <module name="springboot-excel" />
+        <module name="springboot-redisson" />
+        <module name="springboot-filter-handler-listener" />
+        <module name="springboot-elasticsearch" />
+        <module name="springboot-mybatisplus" />
+        <module name="springboot-tools" />
         <module name="springboot-druid" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-druid" target="1.8" />
       <module name="springboot-elasticsearch" target="1.8" />
+      <module name="springboot-excel" target="1.8" />
       <module name="springboot-filter-handler-listener" target="1.8" />
       <module name="springboot-kafka" target="1.8" />
       <module name="springboot-log4j2" target="1.8" />
@@ -44,6 +46,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-druid" options="-parameters" />
       <module name="springboot-elasticsearch" options="-parameters" />
+      <module name="springboot-excel" options="-parameters" />
       <module name="springboot-filter-handler-listener" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />
       <module name="springboot-log4j2" options="-parameters" />

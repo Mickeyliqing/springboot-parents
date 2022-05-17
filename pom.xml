@@ -33,6 +33,7 @@
         <module>springboot-tools</module>
         <module>springboot-druid</module>
         <module>springboot-redisson</module>
+        <module>springboot-excel</module>
     </modules>
 
     <properties>
@@ -123,6 +124,12 @@
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>springboot-redisson</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>springboot-excel</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>

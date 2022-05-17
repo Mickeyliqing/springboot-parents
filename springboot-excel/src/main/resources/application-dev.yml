@@ -1,0 +1,12 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: springboot-excel
+
+  # 上传数据文件最大限制配置
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
