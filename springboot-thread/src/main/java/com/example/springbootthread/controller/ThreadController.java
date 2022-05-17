@@ -1,19 +1,25 @@
 package com.example.springbootthread.controller;
 
 import com.alibaba.excel.EasyExcel;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.springbootthread.model.RegionData2021;
 import com.example.springbootthread.service.IAsyncService;
 import com.example.springbootthread.service.impl.ThreadService;
+import org.apache.poi.ss.formula.functions.T;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
+import java.util.function.Function;
 
 /**
  * @Author:
@@ -37,6 +43,29 @@ public class ThreadController {
         asyncService.saveRegionData(list);
         return true;
 
+    }
+
+    @PostMapping("/save")
+    public boolean saveRegionData(@RequestBody RegionData2021 regionData2021) {
+        asyncService.saveOrUpdateEntity(regionData2021);
+        return true;
+    }
+
+    @PostMapping("/update")
+    public boolean updateRegionData(@RequestBody RegionData2021 regionData2021) {
+        List<RegionData2021> list = new ArrayList<>();
+        list.add(regionData2021);
+        asyncService.saveOrUpdateBatchEntity(list, 1000);
+        return true;
+    }
+
+    @PostMapping("/get")
+    public boolean getRegionData() throws InterruptedException {
+        for (int i = 0; i < 10; i++) {
+            asyncService.getDataTest();
+        }
+
+        return true;
     }
 
     /**

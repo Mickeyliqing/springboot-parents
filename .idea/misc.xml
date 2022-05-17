@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/springboot-validation/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-tools/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-druid/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redisson/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

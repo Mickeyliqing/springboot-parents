@@ -32,6 +32,7 @@
         <module>springboot-validation</module>
         <module>springboot-tools</module>
         <module>springboot-druid</module>
+        <module>springboot-redisson</module>
     </modules>
 
     <properties>
@@ -116,6 +117,12 @@
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>springboot-druid</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>springboot-redisson</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>

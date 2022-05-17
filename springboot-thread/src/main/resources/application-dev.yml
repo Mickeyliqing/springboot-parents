@@ -18,9 +18,9 @@ spring:
     password: root
     druid:
       # 初始化大小，最小，最大
-      initial-size: 100
-      min-idle: 1000
-      max-active: 2000
+      initial-size: 10
+      min-idle: 20
+      max-active: 200
 
       # 配置获取连接等待超时的时间
       max-wait: 60000
@@ -58,9 +58,9 @@ spring:
   task:
     execution:
       pool:
-        core-size: 1000
-        max-size: 2000
-        queue-capacity: 4000
+        core-size: 10
+        max-size: 200
+        queue-capacity: 400
         keep-alive: 60
       thread-name-prefix: thread-
 

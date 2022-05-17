@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-nacos-provide/springboot-nacos-provide.iml" filepath="$PROJECT_DIR$/springboot-nacos-provide/springboot-nacos-provide.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-parents.iml" filepath="$PROJECT_DIR$/springboot-parents.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redisson/springboot-redisson.iml" filepath="$PROJECT_DIR$/springboot-redisson/springboot-redisson.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-thread/springboot-thread.iml" filepath="$PROJECT_DIR$/springboot-thread/springboot-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-tools/springboot-tools.iml" filepath="$PROJECT_DIR$/springboot-tools/springboot-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-validation/springboot-validation.iml" filepath="$PROJECT_DIR$/springboot-validation/springboot-validation.iml" />
