@@ -15,14 +15,14 @@ import java.util.List;
 /**
  * 定义请求方法
  */
-@Api(value = "UserController")
+@Api(value = "UserController") // 使用在请求的实体类上，对类的说明
 @RestController
 @RequestMapping("/user")
 public class UserController {
 
     @PostMapping("/add")
-    @ApiOperation("新增方法")
-    @ApiImplicitParam(name = "userParam", type = "Body", dataTypeClass = UserParam.class, required = true)
+    @ApiOperation("新增方法") // 对接口的说明
+    @ApiImplicitParam(name = "userParam", type = "Body", dataTypeClass = UserParam.class, required = true) // 对请求参数的说明
     public Boolean add(@RequestBody UserParam userParam) {
         return true;
     }

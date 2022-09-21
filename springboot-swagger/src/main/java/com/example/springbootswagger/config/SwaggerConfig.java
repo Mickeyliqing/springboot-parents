@@ -17,8 +17,8 @@ import springfox.documentation.spring.web.plugins.Docket;
  * 自定义 Swagger 的配置
  */
 @Configuration
-@EnableOpenApi
-@EnableKnife4j
+@EnableOpenApi // 启用 Swagger3
+@EnableKnife4j // 开启 knife4j
 public class SwaggerConfig {
 
     @Bean

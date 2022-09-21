@@ -14,10 +14,10 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@ApiModel(value = "用户实体类")
+@ApiModel(value = "用户实体类") // 实体类上使用
 public class UserParam implements Serializable {
 
-    @ApiModelProperty(value = "ID")
+    @ApiModelProperty(value = "ID") // 实体类的属性上使用
     private Integer id;
     @ApiModelProperty(value = "姓名")
     private String name;
