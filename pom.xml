@@ -34,6 +34,8 @@
         <module>springboot-druid</module>
         <module>springboot-redisson</module>
         <module>springboot-excel</module>
+        <module>springboot-swagger</module>
+        <module>springboot-secret</module>
     </modules>
 
     <properties>
@@ -132,10 +134,27 @@
                 <artifactId>springboot-excel</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>springboot-swagger</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>springboot-secret</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

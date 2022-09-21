@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/springboot-nacos-provide/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-redisson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-secret/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-swagger/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-thread/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-tools/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-validation/src/main/java" charset="UTF-8" />
