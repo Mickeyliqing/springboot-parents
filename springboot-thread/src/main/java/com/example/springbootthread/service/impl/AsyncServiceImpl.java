@@ -50,7 +50,7 @@ public class AsyncServiceImpl extends ServiceImpl<RegionData2021Mapper, RegionDa
     public static volatile boolean IS_OK = true;
 
     /**
-     *  @Async("getAsyncExecutor") 这个配置去掉不使用，也可以使用到多线程，那那样的话就不会使用到自定义的线程池大小
+     *  @Async("getAsyncExecutor") 这个配置去掉不使用，也可以使用到多线程，那样的话就不会使用到自定义的线程池大小
      */
     @Async("getAsyncExecutor")
     @Override

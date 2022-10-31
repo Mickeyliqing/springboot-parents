@@ -1,21 +1,14 @@
 package com.example.springbootexcel.files;
-
-import com.alibaba.excel.EasyExcel;
-import com.alibaba.excel.write.style.column.LongestMatchColumnWidthStyleStrategy;
-import com.example.springbootexcel.excel.LocalDateStringConverter;
-import org.apache.poi.ss.formula.functions.T;
 import org.apache.poi.util.IOUtils;
-
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
-
-import javax.annotation.Resource;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.InputStream;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-import java.util.List;
+
 
 /**
  * @Author:
@@ -25,7 +18,7 @@ import java.util.List;
  **/
 public class ExportAndDownFiles {
 
-    @Resource
+    @Autowired
     private ResourceLoader resourceLoader;
 
     /**
@@ -46,13 +39,18 @@ public class ExportAndDownFiles {
              * InputStream 是拿不到相对路径的，需要使用 ResourceLoader 这个类去获取
              */
             String path = "files/新增区划导入.csv";
-            org.springframework.core.io.Resource resource = resourceLoader.getResource("classpath:" + path);
+            Resource resource = resourceLoader.getResource("classpath:" + path);
 
             /**
              * 封装返回接口数据
              */
             response.reset();
             response.setContentType("application/csv;charset=utf-8");
+            response.addHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+            response.addHeader("charset", "utf-8");
+            response.addHeader("Pragma", "no-cache");
+//            String encodeName = URLEncoder.encode(filename, StandardCharsets.UTF_8.toString());
+//            response.setHeader("Content-Disposition", "attachment; filename=" + encodeName);
             response.setHeader("Content-Disposition", String.format("attachment; filename=%s", URLEncoder.encode(fileName, StandardCharsets.UTF_8.name()) + ".csv"));
 
             /**

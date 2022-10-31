@@ -7,10 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * @Author:
- * @Date:
- * @Class:
- * @Discription:
+ * 时间转换的常见方法
  **/
 public class DateUtil {
     private final static SimpleDateFormat sdfYear = new SimpleDateFormat("yyyy");

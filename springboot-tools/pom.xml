@@ -19,6 +19,14 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <dependencies>
+        <!--StringUtils-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>

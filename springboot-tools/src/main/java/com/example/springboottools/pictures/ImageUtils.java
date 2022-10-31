@@ -20,11 +20,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @Author:
- * @Date:
- * @Class:
- * @Discription:
- **/
+ * 图片常见的方法
+ */
 public class ImageUtils {
 
     /** */

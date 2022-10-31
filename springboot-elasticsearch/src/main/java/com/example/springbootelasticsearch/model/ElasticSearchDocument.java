@@ -11,8 +11,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ElasticSearchDocument<T> {
-
     private String id;
-
     private T data;
 }

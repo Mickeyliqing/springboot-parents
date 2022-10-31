@@ -4,6 +4,7 @@ import com.alibaba.excel.EasyExcel;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.springbootthread.model.RegionData2021;
 import com.example.springbootthread.service.IAsyncService;
+import com.example.springbootthread.service.ISimpleAsyncService;
 import com.example.springbootthread.service.impl.ThreadService;
 import org.apache.poi.ss.formula.functions.T;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,11 +31,14 @@ import java.util.function.Function;
 @RestController
 public class ThreadController {
 
-    @Autowired
+    @Resource
     private ThreadService threadService;
 
     @Resource
     private IAsyncService asyncService;
+
+    @Resource
+    private ISimpleAsyncService simpleAsyncService;
 
     @PostMapping("/saveList")
     public boolean importRegionCode(@RequestParam("files") MultipartFile files) throws Exception {
@@ -64,7 +68,6 @@ public class ThreadController {
         for (int i = 0; i < 10; i++) {
             asyncService.getDataTest();
         }
-
         return true;
     }
 
@@ -95,5 +98,23 @@ public class ThreadController {
         CompletableFuture thread_03 = threadService.getThread_03("getThread_03");
         CompletableFuture.allOf(thread_02, thread_03);
         return (String) thread_02.get() + "," + thread_03.get();
+    }
+
+    @PostMapping("/saveBatch")
+    public boolean saveBatch(@RequestParam("files") MultipartFile files) throws Exception {
+        List<RegionData2021> list =
+                EasyExcel.read(files.getInputStream()).sheet().head(RegionData2021.class).doReadSync();
+        simpleAsyncService.saveRegionData(list);
+        return true;
+
+    }
+
+    @PostMapping("/insertBatch")
+    public boolean insertBatch(@RequestParam("files") MultipartFile files) throws Exception {
+        List<RegionData2021> list =
+                EasyExcel.read(files.getInputStream()).sheet().head(RegionData2021.class).doReadSync();
+        simpleAsyncService.insertBatch(list);
+        return true;
+
     }
 }
