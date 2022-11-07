@@ -28,7 +28,7 @@ public class RestHighLevelClientConfig {
      * @return 返回 HttpHost 对象
      */
     private HttpHost createHttpHost() {
-        Asserts.check(ObjectUtils.isEmpty(uris), "ElasticSearch cluster ip address cannot empty");
+        Asserts.check(ObjectUtils.isNotEmpty(uris), "ElasticSearch cluster ip address cannot empty");
         String url = uris.split(",")[0].trim();
         return new HttpHost(url.split(":")[0], Integer.parseInt(url.split(":")[1]));
     }
