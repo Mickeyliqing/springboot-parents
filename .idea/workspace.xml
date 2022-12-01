@@ -16,11 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="Thread 项目添加基础的知识&#10;Tools 项目添加对应集合的操作">
-      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/aes/AesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="添加加密和解密的方法" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -415,7 +411,7 @@
       <workItem from="1667823460015" duration="3020000" />
       <workItem from="1668699315413" duration="24000" />
       <workItem from="1668768542739" duration="6212000" />
-      <workItem from="1669895337005" duration="2035000" />
+      <workItem from="1669895337005" duration="2334000" />
     </task>
     <task id="LOCAL-00001" summary="提交Spring Boot 学习 Demo">
       <created>1642830364193</created>
@@ -508,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669896533719</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加加密和解密的方法">
+      <created>1669897445315</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669897445315</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +555,8 @@
     <MESSAGE value="构建新的项目-并优化老的项目方法" />
     <MESSAGE value="修改 ElasticSearch 项目" />
     <MESSAGE value="Thread 项目添加基础的知识&#10;Tools 项目添加对应集合的操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread 项目添加基础的知识&#10;Tools 项目添加对应集合的操作" />
+    <MESSAGE value="添加加密和解密的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加加密和解密的方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="882" y="615" key="#com.intellij.debugger.streams.ui.EvaluationAwareTraceWindow" timestamp="1668778842371">
@@ -642,21 +646,22 @@
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667825064910" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1666699556888" />
     <state x="587" y="127" key="SettingsEditor/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668778505669" />
-    <state x="736" y="334" key="Vcs.Push.Dialog.v2" timestamp="1669896541375">
+    <state x="736" y="334" key="Vcs.Push.Dialog.v2" timestamp="1669897701189">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826484806" />
     <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1663765595157" />
-    <state x="736" y="334" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669896541375" />
+    <state x="736" y="334" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897701189" />
     <state x="663" y="236" width="594" height="568" key="find.popup" timestamp="1666357981497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="236" width="594" height="568" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1666357981497" />
-    <state x="633" y="292" key="git4idea.merge.GitPullDialog" timestamp="1667825919437">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="844" y="393" key="git4idea.merge.GitPullDialog" timestamp="1669897414806">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="633" y="292" key="git4idea.merge.GitPullDialog/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667825919437" />
     <state x="633" y="292" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1663759352469" />
+    <state x="844" y="393" key="git4idea.merge.GitPullDialog/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897414806" />
     <state x="506" y="103" key="new project wizard" timestamp="1667224638085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
