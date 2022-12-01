@@ -16,22 +16,36 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="构建新的项目-并优化老的项目方法">
-      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/dao/ElasticSearchDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/dao/ElasticSearchDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/service/IndexHandleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/service/impl/IndexHandleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/test/java/com/example/springbootelasticsearch/ElasticsearchTest.java" afterDir="false" />
+    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="修改 ElasticSearch 项目">
+      <change afterPath="$PROJECT_DIR$/springboot-thread/src/main/java/com/example/springbootthread/thread/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-thread/src/main/java/com/example/springbootthread/thread/MyCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-thread/src/main/java/com/example/springbootthread/thread/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-thread/src/main/java/com/example/springbootthread/thread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/list/ListCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/list/ListUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/list/SetCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/map/MapCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/model/Models.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/AssertTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/Base64UtilsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/BeanUtilsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/BooleanUtilsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/ClassUtilsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/CollectionTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/CollectionUtilsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/DigestUtilsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/IOUtilsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/ListsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/ObjectsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/ReflectionUtilsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/tools/StringUtilsTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-tools/参考文档.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/config/RestHighLevelClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/config/RestHighLevelClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/exception/BaseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/model/ElasticSearchDocument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/service/ElasticSearchService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/service/impl/ElasticSearchServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatisplus/src/main/resources/mapper/ISimpleAsyncService.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/main/resources/mapper/DataAreaMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-thread/src/main/resources/mapper/ISimpleAsyncService.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-thread/src/main/resources/mapper/ElasticSearchDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-tools/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/list/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/list/ListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/model/PublicField.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-tools/src/main/java/com/example/springboottools/model/PublicField.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,32 +120,45 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JAVA/LinkListTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-thread/src/main/java/com/example/springbootthread" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31494254" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springboottools.model" />
+      <recent name="com.example.springboottools.map" />
       <recent name="com.example.springbootquartz.job" />
       <recent name="com.example.springbootquartz.model" />
       <recent name="com.example.springbootquartz.client" />
-      <recent name="com.example.springbootquartz.config" />
-      <recent name="com.example.springboottools.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-thread\src\main\java\com\example\springbootthread" />
+      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-tools\src\main\java\com\example\springboottools" />
+      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-tools\src\main\java\com\example\springboottools\list" />
       <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-quartz\src\main\resources" />
       <recent name="D:\IDEAPrograms\SpringBoot\springboot-parents\springboot-excel\src\main\java\com\example\springbootexcel" />
-      <recent name="D:\IDEAPrograms\SpringBoot\springboot-parents\springboot-excel\src\main\resources" />
-      <recent name="D:\IDEAPrograms\SpringBoot\springboot-parents\springboot-redisson\src\main\resources" />
-      <recent name="D:\IDEAPrograms\SpringBoot\springboot-parents\springboot-thread" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElasticsearchTest.existIndex">
+  <component name="RunManager" selected="Application.ListUtilsTest">
+    <configuration name="ListUtilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springboottools.list.ListUtilsTest" />
+      <module name="springboot-tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboottools.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ElasticsearchTest.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-elasticsearch" />
       <extension name="coverage">
@@ -193,21 +220,6 @@
       <option name="MAIN_CLASS_NAME" value="com.example.springbootelasticsearch.ElasticsearchTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringbootKafkaApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springbootkafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springbootkafka" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springbootkafka.SpringbootKafkaApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -361,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListUtilsTest" />
         <item itemvalue="JUnit.ElasticsearchTest.existIndex" />
         <item itemvalue="JUnit.ElasticsearchTest.createIndex" />
         <item itemvalue="JUnit.ElasticsearchTest.isExistIndex" />
         <item itemvalue="JUnit.ElasticsearchTest.test" />
-        <item itemvalue="JUnit.SpringbootKafkaApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +441,10 @@
       <workItem from="1666782417288" duration="7891000" />
       <workItem from="1667224358305" duration="6424000" />
       <workItem from="1667707188262" duration="6755000" />
-      <workItem from="1667823460015" duration="2868000" />
+      <workItem from="1667823460015" duration="3020000" />
+      <workItem from="1668699315413" duration="24000" />
+      <workItem from="1668768542739" duration="6212000" />
+      <workItem from="1669895337005" duration="841000" />
     </task>
     <task id="LOCAL-00001" summary="提交Spring Boot 学习 Demo">
       <created>1642830364193</created>
@@ -508,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667230746198</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修改 ElasticSearch 项目">
+      <created>1667826433571</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667826433571</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,52 +572,70 @@
     <MESSAGE value="优化redis架包" />
     <MESSAGE value="构建新的项目" />
     <MESSAGE value="构建新的项目-并优化老的项目方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="构建新的项目-并优化老的项目方法" />
+    <MESSAGE value="修改 ElasticSearch 项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 ElasticSearch 项目" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="882" y="615" key="#com.intellij.debugger.streams.ui.EvaluationAwareTraceWindow" timestamp="1668778842371">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="882" y="615" key="#com.intellij.debugger.streams.ui.EvaluationAwareTraceWindow/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668778842371" />
     <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1667823894260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667823894260" />
     <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1666790559958" />
-    <state x="915" y="246" key="FileChooserDialogImpl" timestamp="1667709835108">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1035" y="315" key="#xdebugger.evaluate" timestamp="1668778543113">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1035" y="315" key="#xdebugger.evaluate/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668778543113" />
+    <state x="1220" y="331" key="FileChooserDialogImpl" timestamp="1668780784690">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-1005" y="-7" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-253.1920.1040@-1920.-253.1920.1040" timestamp="1667229036934" />
     <state x="915" y="246" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667709835108" />
     <state x="915" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1666706186352" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1667825774706">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1220" y="331" key="FileChooserDialogImpl/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668780784690" />
+    <state width="2517" height="358" key="GridCell.Tab.0.bottom" timestamp="1669895842582">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667825774706" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1667825774706">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826500067" />
+    <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669895842582" />
+    <state width="2517" height="358" key="GridCell.Tab.0.center" timestamp="1669895842582">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667825774706" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1667825774706">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826500067" />
+    <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669895842582" />
+    <state width="2517" height="358" key="GridCell.Tab.0.left" timestamp="1669895842581">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667825774706" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1667825774706">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826500067" />
+    <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669895842581" />
+    <state width="2517" height="358" key="GridCell.Tab.0.right" timestamp="1669895842582">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667825774706" />
-    <state width="1877" height="294" key="GridCell.Tab.1.bottom" timestamp="1667745841515">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826500067" />
+    <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669895842582" />
+    <state width="2517" height="540" key="GridCell.Tab.1.bottom" timestamp="1668780786042">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="294" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841515" />
-    <state width="1877" height="294" key="GridCell.Tab.1.center" timestamp="1667745841515">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2517" height="540" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668780786042" />
+    <state width="2517" height="540" key="GridCell.Tab.1.center" timestamp="1668780786042">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="294" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841515" />
-    <state width="1877" height="294" key="GridCell.Tab.1.left" timestamp="1667745841515">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2517" height="540" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668780786042" />
+    <state width="2517" height="540" key="GridCell.Tab.1.left" timestamp="1668780786042">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="294" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841515" />
-    <state width="1877" height="294" key="GridCell.Tab.1.right" timestamp="1667745841515">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="2517" height="540" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668780786042" />
+    <state width="2517" height="540" key="GridCell.Tab.1.right" timestamp="1668780786042">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="294" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841515" />
+    <state width="2517" height="540" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668780786042" />
     <state width="1877" height="294" key="GridCell.Tab.2.bottom" timestamp="1667745841516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -617,15 +657,16 @@
     </state>
     <state x="600" y="137" key="NewModule_or_Project.wizard/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667230223101" />
     <state x="600" y="137" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1663682127427" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1667825064910">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="587" y="127" key="SettingsEditor" timestamp="1668778505669">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667825064910" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1666699556888" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1667230978787">
+    <state x="587" y="127" key="SettingsEditor/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668778505669" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1667826484806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667230978787" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826484806" />
     <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1663765595157" />
     <state x="663" y="236" width="594" height="568" key="find.popup" timestamp="1666357981497">
       <screen x="0" y="0" width="1920" height="1040" />

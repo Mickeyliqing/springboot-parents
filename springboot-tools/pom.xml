@@ -20,10 +20,38 @@
     </properties>
 
     <dependencies>
-        <!--StringUtils-->
+        <!--apache 的 org.apache.commons.collections包下的CollectionUtils-->
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
+        <!--com.google.guava 下的集合工具：Lists-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>20.0</version>
+        </dependency>
+
+        <!--org.apache.commons.lang3 包下的 BooleanUtils 和 StringUtils-->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
+        </dependency>
+
+        <!--org.apache.commons.io 包下的IOUtils-->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
+        </dependency>
+
+        <!--org.apache.commons.codec.digest 下的 DigestUtils 对数据加密-->
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.6</version>
         </dependency>
     </dependencies>
 
