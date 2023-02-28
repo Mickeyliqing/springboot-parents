@@ -6,26 +6,55 @@ spring:
     name: springboot-kafka
 
   kafka:
-    group: springboot-kafka
-    topics:
-    bootstrap-servers: 127.0.0.1:9092,127.0.0.2:9092,127.0.0.3:9092
-
+    # 集群地址，多个使用逗号隔开
+    bootstrap-servers: 192.168.234.128:9092,192.168.234.128:9093,192.168.234.128:9094
+    # 消费的主题，通过配置项来实现，多个逗号隔开，中间不要有空格
+    topics: topic-1,topic-2,topic-3
     producer:
-      retries: 0
+      # 重试次数，producer 两次重试之间会停顿一段时间，以防止频繁地重试对系统带来冲击。这段时间是可以配置的，由参数 retry.backoff.ms 指定，默认是 100 毫秒
+      # 重试可能造成消息的重复发送,为了应对这一风险， Kafka 要求用户在 consumer 端必须执行去重处理
+      # 重试可能造成消息的乱序，producer 提供了 max.in.flight.requets.per.connection 参数 一旦用户将此参数设置成 1, producer 将确保某一时刻只能发送一个请求
+      retries: 3
       batch-size: 16384
       buffer-memory: 33554432
+      # acks=0 ： producer 不等kafka是否接收成功，立即开始其他工作 -> 提高吞吐量，单会丢失数据
+      # acks=1 ： producer 发送消息后 leader broker 仅将该消息写入本地日志，然后便发送响应结果 producer ，而无须等待 ISR 中其他副本写入该消息。能保证吞吐量，也能保证一定的持久性。
+      # acks=all/-1 ：表示当发送消息时， leader broker 不仅会将消息写入本地日志，同时还会等待 ISR 中所有其他副本都成功写入它们各自的本地日志后，才发送响应结果给producer。吞吐量极低，但不会丢失数据。
+      acks: 1
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
-      properties:
-        linger.ms: 1
 
     consumer:
+      group-id: springboot-kafka
+      # 是否自动提交 consumer offset，批量的时候要改为 false，代码手动维护 offset 的也需要设置成 false
       enable-auto-commit: false
-      auto-commit-interval: 100ms
+      # 假设你首次运行一个 consumer group 并且指定从头消费。显然该 group 会从头消费所有数据，因为此时该 group 还没有任何位移信息。一旦该 group 成功提交位移后，你重启了 group ，依然指定从头消费。此时你会发现该 group 并不会真的从头消费，因为 Kafka 己经保存了该 group位移信息，因此它会无视 auto.offset.reset 的设置。
+      # latest（默认值）指定从最新处位移开始消费
+      # earliest ：指定从最早的位移开始消费，注意这里最早的位移不一定就是0
+      # none:只要有一个分区不存在已提交的offset,就抛出异常;
+      auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      properties:
-        session.timeout.ms: 15000
-      group-id: springboot-kafka
+      # 批量消费的条数
+      max-poll-records: 50
 
-
+    listener:
+      # 设置消费的并发数
+      concurrency: 3
+      # RECORD
+      # 当每一条记录被消费者监听器（ListenerConsumer）处理之后提交
+      # BATCH
+      # 当每一批poll()的数据被消费者监听器（ListenerConsumer）处理之后提交
+      # TIME
+      # 当每一批poll()的数据被消费者监听器（ListenerConsumer）处理之后，距离上次提交时间大于TIME时提交
+      # COUNT
+      # TIME |　COUNT　有一个条件满足时提交
+      # COUNT_TIME
+      # 当每一批poll()的数据被消费者监听器（ListenerConsumer）处理之后，被处理record数量大于等于COUNT时提交
+      # MANUAL
+      # 当每一批poll()的数据被消费者监听器（ListenerConsumer）处理之后, 手动调用Acknowledgment.acknowledge()后提交
+      # MANUAL_IMMEDIATE
+      # 手动调用Acknowledgment.acknowledge()后立即提交，一般使用这种
+      ack-mode: manual_immediate
+      # 批量消费
+      type: batch

@@ -35,10 +35,6 @@ public interface IndexHandleService {
     boolean addSetting(String index, Map<String, Object> settings);
 
     /**
-     * 删
-     */
-
-    /**
      * 删除索引
      *
      * @param index
@@ -46,10 +42,6 @@ public interface IndexHandleService {
      * @return
      */
     boolean deleteIndex(String index);
-
-    /**
-     * 查
-     */
 
     /**
      * 获取索引
