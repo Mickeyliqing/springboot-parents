@@ -16,7 +16,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="添加加密和解密的方法" />
+    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="添加加密和解密的方法">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/service/IndexHandleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/service/IndexHandleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/example/springbootkafka/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/example/springbootkafka/kafka/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/example/springbootkafka/kafka/KafkaProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/example/springbootkafka/kafka/KafkaProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/resources/application-dev.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +64,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -90,7 +101,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-thread/src/main/java/com/example/springbootthread" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31494254" />
@@ -411,7 +422,15 @@
       <workItem from="1667823460015" duration="3020000" />
       <workItem from="1668699315413" duration="24000" />
       <workItem from="1668768542739" duration="6212000" />
-      <workItem from="1669895337005" duration="2334000" />
+      <workItem from="1669895337005" duration="3132000" />
+      <workItem from="1674013567601" duration="1125000" />
+      <workItem from="1674050787300" duration="82000" />
+      <workItem from="1677147559253" duration="4521000" />
+      <workItem from="1677416805667" duration="3461000" />
+      <workItem from="1677490007232" duration="128000" />
+      <workItem from="1677500166287" duration="125000" />
+      <workItem from="1677500909310" duration="598000" />
+      <workItem from="1677506785691" duration="5342000" />
     </task>
     <task id="LOCAL-00001" summary="提交Spring Boot 学习 Demo">
       <created>1642830364193</created>
@@ -559,114 +578,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加加密和解密的方法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="882" y="615" key="#com.intellij.debugger.streams.ui.EvaluationAwareTraceWindow" timestamp="1668778842371">
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1677569049921">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="882" y="615" key="#com.intellij.debugger.streams.ui.EvaluationAwareTraceWindow/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668778842371" />
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1667823894260">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667823894260" />
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1666790559958" />
-    <state x="1035" y="315" key="#xdebugger.evaluate" timestamp="1668778543113">
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677569049921" />
+    <state x="1220" y="331" key="FileChooserDialogImpl" timestamp="1677490137223">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1035" y="315" key="#xdebugger.evaluate/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668778543113" />
-    <state x="1220" y="331" key="FileChooserDialogImpl" timestamp="1668780784690">
+    <state x="1220" y="331" key="FileChooserDialogImpl/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677490137223" />
+    <state width="2517" height="358" key="GridCell.Tab.0.bottom" timestamp="1669898573084">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="-1005" y="-7" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-253.1920.1040@-1920.-253.1920.1040" timestamp="1667229036934" />
-    <state x="915" y="246" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667709835108" />
-    <state x="915" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1666706186352" />
-    <state x="1220" y="331" key="FileChooserDialogImpl/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668780784690" />
-    <state width="2517" height="358" key="GridCell.Tab.0.bottom" timestamp="1669897230006">
+    <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669898573084" />
+    <state width="2517" height="358" key="GridCell.Tab.0.center" timestamp="1669898573083">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826500067" />
-    <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
-    <state width="2517" height="358" key="GridCell.Tab.0.center" timestamp="1669897230006">
+    <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669898573083" />
+    <state width="2517" height="358" key="GridCell.Tab.0.left" timestamp="1669898573083">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826500067" />
-    <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
-    <state width="2517" height="358" key="GridCell.Tab.0.left" timestamp="1669897230006">
+    <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669898573083" />
+    <state width="2517" height="358" key="GridCell.Tab.0.right" timestamp="1669898573083">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826500067" />
-    <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
-    <state width="2517" height="358" key="GridCell.Tab.0.right" timestamp="1669897230006">
+    <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669898573083" />
+    <state x="736" y="334" key="Vcs.Push.Dialog.v2" timestamp="1669897863975">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826500067" />
-    <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
-    <state width="2517" height="540" key="GridCell.Tab.1.bottom" timestamp="1668780786042">
+    <state x="736" y="334" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897863975" />
+    <state x="884" y="318" width="792" height="852" key="find.popup" timestamp="1677500281893">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841515" />
-    <state width="2517" height="540" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668780786042" />
-    <state width="2517" height="540" key="GridCell.Tab.1.center" timestamp="1668780786042">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1877" height="294" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841515" />
-    <state width="2517" height="540" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668780786042" />
-    <state width="2517" height="540" key="GridCell.Tab.1.left" timestamp="1668780786042">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1877" height="294" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841515" />
-    <state width="2517" height="540" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668780786042" />
-    <state width="2517" height="540" key="GridCell.Tab.1.right" timestamp="1668780786042">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1877" height="294" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841515" />
-    <state width="2517" height="540" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668780786042" />
-    <state width="1877" height="294" key="GridCell.Tab.2.bottom" timestamp="1667745841516">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="294" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841516" />
-    <state width="1877" height="294" key="GridCell.Tab.2.center" timestamp="1667745841516">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="294" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841516" />
-    <state width="1877" height="294" key="GridCell.Tab.2.left" timestamp="1667745841516">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="294" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841516" />
-    <state width="1877" height="294" key="GridCell.Tab.2.right" timestamp="1667745841516">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="294" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667745841516" />
-    <state x="600" y="137" key="NewModule_or_Project.wizard" timestamp="1667230223101">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="600" y="137" key="NewModule_or_Project.wizard/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667230223101" />
-    <state x="600" y="137" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1663682127427" />
-    <state x="587" y="127" key="SettingsEditor" timestamp="1668778505669">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667825064910" />
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1666699556888" />
-    <state x="587" y="127" key="SettingsEditor/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1668778505669" />
-    <state x="736" y="334" key="Vcs.Push.Dialog.v2" timestamp="1669897701189">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667826484806" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1663765595157" />
-    <state x="736" y="334" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897701189" />
-    <state x="663" y="236" width="594" height="568" key="find.popup" timestamp="1666357981497">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="663" y="236" width="594" height="568" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1666357981497" />
+    <state x="884" y="318" width="792" height="852" key="find.popup/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677500281893" />
     <state x="844" y="393" key="git4idea.merge.GitPullDialog" timestamp="1669897414806">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="633" y="292" key="git4idea.merge.GitPullDialog/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667825919437" />
-    <state x="633" y="292" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1663759352469" />
     <state x="844" y="393" key="git4idea.merge.GitPullDialog/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897414806" />
-    <state x="506" y="103" key="new project wizard" timestamp="1667224638085">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="675" y="139" key="new project wizard" timestamp="1677149186775">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="506" y="103" key="new project wizard/0.0.1920.1040/-1920.-253.1920.1040@0.0.1920.1040" timestamp="1667224638085" />
-    <state x="590" y="169" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1665752413610" />
+    <state x="675" y="139" key="new project wizard/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677149186775" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springboot_parents$GeneratorCodeConfig.ic" NAME="GeneratorCodeConfig Coverage Results" MODIFIED="1642735768097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
