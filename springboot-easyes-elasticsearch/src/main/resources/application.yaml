@@ -1,0 +1,3 @@
+easy-es:
+  enable: true
+  address : 192.168.234.128:9200
