@@ -11,13 +11,14 @@
         <module name="springboot-nacos-provide" />
         <module name="springboot-validation" />
         <module name="springboot-xxljob" />
-        <module name="springboot-log4j2" />
+        <module name="springboot-easyes-elasticsearch" />
         <module name="springboot-secret" />
         <module name="springboot-nacos-consumer" />
         <module name="springboot-thread" />
         <module name="springboot-kafka" />
-        <module name="springboot-excel" />
         <module name="springboot-redisson" />
+        <module name="springboot-excel" />
+        <module name="springboot-log4j2" />
         <module name="springboot-mybatisplus" />
         <module name="springboot-filter-handler-listener" />
         <module name="springboot-elasticsearch" />
@@ -31,6 +32,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-druid" options="-parameters" />
+      <module name="springboot-easyes-elasticsearch" options="-parameters" />
       <module name="springboot-elasticsearch" options="-parameters" />
       <module name="springboot-excel" options="-parameters" />
       <module name="springboot-filter-handler-listener" options="-parameters" />

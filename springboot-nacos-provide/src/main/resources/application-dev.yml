@@ -6,11 +6,6 @@ spring:
     name: springboot-nacos-provide
 
   cloud:
-    loadbalancer:
-      retry:
-        enabled: true
-      enabled: true
-
     nacos:
       discovery:
         server-addr: 172.16.0.127:8848

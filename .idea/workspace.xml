@@ -16,12 +16,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="添加加密和解密的方法">
+    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="增加easy-es框架">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2021_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_nacos_1_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/service/IndexHandleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-elasticsearch/src/main/java/com/example/springbootelasticsearch/service/IndexHandleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/example/springbootkafka/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/example/springbootkafka/kafka/KafkaConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/example/springbootkafka/kafka/KafkaProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/java/com/example/springbootkafka/kafka/KafkaProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-kafka/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-kafka/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/client/IProvideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/client/IProvideService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provide/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provide/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +72,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -119,11 +122,11 @@
       <recent name="com.example.springbootquartz.client" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-easyes-elasticsearch\src\main\java\com\example\springbooteasyeselasticsearch" />
       <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-thread\src\main\java\com\example\springbootthread" />
       <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-tools\src\main\java\com\example\springboottools" />
       <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-tools\src\main\java\com\example\springboottools\list" />
       <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-quartz\src\main\resources" />
-      <recent name="D:\IDEAPrograms\SpringBoot\springboot-parents\springboot-excel\src\main\java\com\example\springbootexcel" />
     </key>
   </component>
   <component name="RunManager" selected="Application.AesTest">
@@ -212,6 +215,13 @@
     <configuration name="SpringbootDruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-druid" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootdruid.SpringbootDruidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootEasyesElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-easyes-elasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbooteasyeselasticsearch.SpringbootEasyesElasticsearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -422,15 +432,11 @@
       <workItem from="1667823460015" duration="3020000" />
       <workItem from="1668699315413" duration="24000" />
       <workItem from="1668768542739" duration="6212000" />
-      <workItem from="1669895337005" duration="3132000" />
-      <workItem from="1674013567601" duration="1125000" />
-      <workItem from="1674050787300" duration="82000" />
-      <workItem from="1677147559253" duration="4521000" />
-      <workItem from="1677416805667" duration="3461000" />
-      <workItem from="1677490007232" duration="128000" />
-      <workItem from="1677500166287" duration="125000" />
-      <workItem from="1677500909310" duration="598000" />
-      <workItem from="1677506785691" duration="5342000" />
+      <workItem from="1669895337005" duration="2334000" />
+      <workItem from="1677581270998" duration="13000" />
+      <workItem from="1677747729341" duration="1002000" />
+      <workItem from="1677813112832" duration="1662000" />
+      <workItem from="1681737683800" duration="481000" />
     </task>
     <task id="LOCAL-00001" summary="提交Spring Boot 学习 Demo">
       <created>1642830364193</created>
@@ -530,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669897445315</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="增加easy-es框架">
+      <created>1677816487537</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677816487537</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,49 +588,42 @@
     <MESSAGE value="修改 ElasticSearch 项目" />
     <MESSAGE value="Thread 项目添加基础的知识&#10;Tools 项目添加对应集合的操作" />
     <MESSAGE value="添加加密和解密的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加加密和解密的方法" />
+    <MESSAGE value="增加easy-es框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加easy-es框架" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1677569049921">
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1677813157888">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677569049921" />
-    <state x="1220" y="331" key="FileChooserDialogImpl" timestamp="1677490137223">
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677813157888" />
+    <state width="2517" height="358" key="GridCell.Tab.0.bottom" timestamp="1669897230006">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1220" y="331" key="FileChooserDialogImpl/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677490137223" />
-    <state width="2517" height="358" key="GridCell.Tab.0.bottom" timestamp="1669898573084">
+    <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
+    <state width="2517" height="358" key="GridCell.Tab.0.center" timestamp="1669897230006">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669898573084" />
-    <state width="2517" height="358" key="GridCell.Tab.0.center" timestamp="1669898573083">
+    <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
+    <state width="2517" height="358" key="GridCell.Tab.0.left" timestamp="1669897230006">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669898573083" />
-    <state width="2517" height="358" key="GridCell.Tab.0.left" timestamp="1669898573083">
+    <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
+    <state width="2517" height="358" key="GridCell.Tab.0.right" timestamp="1669897230006">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669898573083" />
-    <state width="2517" height="358" key="GridCell.Tab.0.right" timestamp="1669898573083">
+    <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
+    <state x="736" y="334" key="Vcs.Push.Dialog.v2" timestamp="1677816623666">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669898573083" />
-    <state x="736" y="334" key="Vcs.Push.Dialog.v2" timestamp="1669897863975">
+    <state x="736" y="334" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677816623666" />
+    <state x="844" y="393" key="git4idea.merge.GitPullDialog" timestamp="1677816659692">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="736" y="334" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897863975" />
-    <state x="884" y="318" width="792" height="852" key="find.popup" timestamp="1677500281893">
+    <state x="844" y="393" key="git4idea.merge.GitPullDialog/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677816659692" />
+    <state x="654" y="274" key="new project wizard" timestamp="1677815877666">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="884" y="318" width="792" height="852" key="find.popup/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677500281893" />
-    <state x="844" y="393" key="git4idea.merge.GitPullDialog" timestamp="1669897414806">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="844" y="393" key="git4idea.merge.GitPullDialog/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897414806" />
-    <state x="675" y="139" key="new project wizard" timestamp="1677149186775">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="675" y="139" key="new project wizard/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677149186775" />
+    <state x="654" y="274" key="new project wizard/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677815877666" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springboot_parents$GeneratorCodeConfig.ic" NAME="GeneratorCodeConfig Coverage Results" MODIFIED="1642735768097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
