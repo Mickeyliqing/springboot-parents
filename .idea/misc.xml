@@ -28,6 +28,7 @@
         <option value="$PROJECT_DIR$/springboot-secret/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-quartz/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-xxljob/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-easyes-elasticsearch/pom.xml" />
       </list>
     </option>
   </component>
