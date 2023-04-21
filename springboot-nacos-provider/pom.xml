@@ -12,7 +12,7 @@
     <groupId>com.example</groupId>
     <artifactId>springboot-nacos-provide</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-nacos-provide</name>
+    <name>springboot-nacos-provider</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

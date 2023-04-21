@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: springboot-nacos-provide
+    name: springboot-nacos-provider
 
   cloud:
     nacos:

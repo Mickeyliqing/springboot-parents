@@ -16,34 +16,41 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="增加easy-es框架">
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/src/main/java/com/example/springbooteasyeselasticsearch/SpringbootEasyesElasticsearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/src/main/java/com/example/springbooteasyeselasticsearch/controller/DocumentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/src/main/java/com/example/springbooteasyeselasticsearch/dao/DocumentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/src/main/java/com/example/springbooteasyeselasticsearch/model/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/src/main/java/com/example/springbooteasyeselasticsearch/service/IDocumentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/src/main/java/com/example/springbooteasyeselasticsearch/service/impl/DocumentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-easyes-elasticsearch/src/test/java/com/example/springbooteasyeselasticsearch/SpringbootEasyesElasticsearchApplicationTests.java" afterDir="false" />
+    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="修改 nacos 服务">
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/src/test/java/com/example/springbootnacosprovide/SpringbootNacosProvideApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nacos-provider/参考文档.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2021_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_nacos_1_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-mybatisplus/src/main/resources/mapper/DataAreaMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/main/resources/mapper/IProviderService.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/client/IProvideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/client/IProvideService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/client/IProvideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/client/IProviderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/controller/ConsumerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provide/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provide/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/java/com/example/springbootnacosprovide/SpringbootNacosProvideApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/java/com/example/springbootnacosprovide/controller/ProvideController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/test/java/com/example/springbootnacosprovide/SpringbootNacosProvideApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/参考文档.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-thread/src/main/resources/mapper/RegionData2021Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-thread/src/main/resources/mapper/IProviderService.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,8 +311,8 @@
       </method>
     </configuration>
     <configuration name="SpringbootNacosProvideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-nacos-provide" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootnacosprovide.SpringbootNacosProvideApplication" />
+      <module name="springboot-nacos-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootnacosprovide.SpringbootNacosProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -451,6 +458,7 @@
       <workItem from="1677747729341" duration="1002000" />
       <workItem from="1677813112832" duration="1662000" />
       <workItem from="1681737683800" duration="481000" />
+      <workItem from="1682078459611" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="提交Spring Boot 学习 Demo">
       <created>1642830364193</created>
@@ -557,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677816487537</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="修改 nacos 服务">
+      <created>1681738532908</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681738532908</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,17 +618,18 @@
     <MESSAGE value="Thread 项目添加基础的知识&#10;Tools 项目添加对应集合的操作" />
     <MESSAGE value="添加加密和解密的方法" />
     <MESSAGE value="增加easy-es框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加easy-es框架" />
+    <MESSAGE value="修改 nacos 服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 nacos 服务" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1677813157888">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677813157888" />
-    <state x="736" y="334" key="Vcs.Push.Dialog.v2" timestamp="1681738451246">
+    <state x="736" y="334" key="Vcs.Push.Dialog.v2" timestamp="1681738658132">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="736" y="334" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.343.1920.1040@0.0.2560.1400" timestamp="1681738451246" />
+    <state x="736" y="334" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.343.1920.1040@0.0.2560.1400" timestamp="1681738658132" />
     <state x="736" y="334" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677816623666" />
     <state x="844" y="393" key="git4idea.merge.GitPullDialog" timestamp="1677816659692">
       <screen x="0" y="0" width="2560" height="1400" />
