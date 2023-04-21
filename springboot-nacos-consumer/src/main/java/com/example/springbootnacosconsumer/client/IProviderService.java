@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
  **/
 @FeignClient(name = "${spring.provide.url}")
 @Component
-public interface IProvideService {
+public interface IProviderService {
 
     @PostMapping("/getProvide")
     String getProvide();
