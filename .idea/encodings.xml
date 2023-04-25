@@ -3,9 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/springboot-druid/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-easyes-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-easyes-elasticsearch/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-elasticsearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-excel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-filter-handler-listener/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-log4j2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-logback/src/main/java" charset="UTF-8" />
@@ -20,5 +23,7 @@
     <file url="file://$PROJECT_DIR$/springboot-tools/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-validation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-xxljob/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

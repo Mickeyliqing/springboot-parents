@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -17,29 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="增加easy-es框架">
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/src/main/java/com/example/springbootgateway/SpringbootGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/src/main/java/com/example/springbootgateway/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/src/test/java/com/example/springbootgateway/SpringbootGatewayApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-mybatisplus/src/main/resources/mapper/DataAreaMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/main/resources/mapper/IProviderService.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/client/IProvideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/client/IProviderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/java/com/example/springbootnacosconsumer/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-consumer/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/java/com/example/springbootnacosprovide/SpringbootNacosProvideApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/src/main/java/com/example/springbootnacosprovide/SpringbootNacosProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/java/com/example/springbootnacosprovide/controller/ProvideController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/src/main/java/com/example/springbootnacosprovide/controller/ProviderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/src/test/java/com/example/springbootnacosprovide/SpringbootNacosProvideApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/src/test/java/com/example/springbootnacosprovide/SpringbootNacosProvideApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-nacos-provide/参考文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-nacos-provider/参考文档.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-thread/src/main/resources/mapper/RegionData2021Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-thread/src/main/resources/mapper/IProviderService.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +81,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -102,24 +102,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.31494254" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/qingli/ideaPrograms/springboot-parents",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "spring.configuration.checksum": "2541b48c4bd90ef41e66d9024f2b45a8",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -257,6 +258,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootgateway.SpringbootGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-kafka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootkafka.SpringbootKafkaApplication" />
@@ -379,6 +387,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -449,6 +458,9 @@
       <workItem from="1681737683800" duration="481000" />
       <workItem from="1682080048542" duration="958000" />
       <workItem from="1682082499082" duration="740000" />
+      <workItem from="1682389863217" duration="2450000" />
+      <workItem from="1682393446910" duration="1281000" />
+      <workItem from="1682399022507" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="提交Spring Boot 学习 Demo">
       <created>1642830364193</created>
@@ -559,7 +571,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -583,7 +595,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -602,40 +613,6 @@
     <MESSAGE value="添加加密和解密的方法" />
     <MESSAGE value="增加easy-es框架" />
     <option name="LAST_COMMIT_MESSAGE" value="增加easy-es框架" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1677813157888">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677813157888" />
-    <state width="2517" height="358" key="GridCell.Tab.0.bottom" timestamp="1669897230006">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
-    <state width="2517" height="358" key="GridCell.Tab.0.center" timestamp="1669897230006">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
-    <state width="2517" height="358" key="GridCell.Tab.0.left" timestamp="1669897230006">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
-    <state width="2517" height="358" key="GridCell.Tab.0.right" timestamp="1669897230006">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1669897230006" />
-    <state x="736" y="334" key="Vcs.Push.Dialog.v2" timestamp="1677816623666">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="736" y="334" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677816623666" />
-    <state x="844" y="393" key="git4idea.merge.GitPullDialog" timestamp="1677816659692">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="844" y="393" key="git4idea.merge.GitPullDialog/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677816659692" />
-    <state x="654" y="274" key="new project wizard" timestamp="1677815877666">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="654" y="274" key="new project wizard/0.0.2560.1400/-1920.360.1920.1040@0.0.2560.1400" timestamp="1677815877666" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springboot_parents$GeneratorCodeConfig.ic" NAME="GeneratorCodeConfig Coverage Results" MODIFIED="1642735768097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

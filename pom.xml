@@ -37,6 +37,7 @@
         <module>springboot-swagger</module>
         <module>springboot-secret</module>
         <module>springboot-xxljob</module>
+        <module>springboot-gateway</module>
     </modules>
 
     <properties>
@@ -151,6 +152,12 @@
             <dependency>
                 <groupId>com.example</groupId>
                 <artifactId>springboot-xxljob</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>springboot-gateway</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
