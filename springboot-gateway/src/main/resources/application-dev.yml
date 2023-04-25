@@ -1,0 +1,36 @@
+server:
+  port: 9094
+
+spring:
+  application:
+    name: springboot-gateway
+  # nacos 配置
+  cloud:
+    nacos:
+      discovery:
+        server-addr: xxxx:8848
+    # gateway 配置
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 让 gateway 可以发现 nacos 中的为服务
+      routes: # 路由数组
+        - id: provider # 路由ID
+          uri: lb://nacos-provider # lb 指从 nacos 中按照名称获取微服务
+          predicates: # 路由转发需要满足的条件
+            - Path=/provider/** # 当请求路径满足后才进行转发
+        # filters:
+        #   - StripPrefix= 1 # 请求转发会去掉一层路径
+
+        - id: consumer # 路由ID
+          uri: lb://nacos-consumer # lb 指从 nacos 中按照名称获取微服务
+          predicates: # 路由转发需要满足的条件
+            - Path=/consumer/** # 当请求路径满足后才进行转发
+        # filters:
+        #   - StripPrefix= 1 # 请求转发会去掉一层路径
+
+        - id: cnblogs # 路由ID
+          uri: https://www.cnblogs.com # lb 指从 nacos 中按照名称获取微服务
+          predicates: # 路由转发需要满足的条件
+            - Path=/dada-hua/** # 当请求路径满足后才进行转发
+

@@ -19,24 +19,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="增加easy-es框架">
-      <change afterPath="$PROJECT_DIR$/springboot-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-gateway/src/main/java/com/example/springbootgateway/SpringbootGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-gateway/src/main/java/com/example/springbootgateway/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-gateway/src/test/java/com/example/springbootgateway/SpringbootGatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="35473542-4103-4c05-a98d-13f11bc134ea" name="Default Changelist" comment="增加 springboot-gateway 项目">
+      <change afterPath="$PROJECT_DIR$/springboot-gateway/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,9 +92,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/qingli/ideaPrograms/springboot-parents",
+    "last_opened_file_path": "/Users/qingli/ideaPrograms/springboot-parents/springboot-gateway/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -125,19 +112,19 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot-gateway/src/main/resources" />
+      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-easyes-elasticsearch\src\main\java\com\example\springbooteasyeselasticsearch" />
+      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-thread\src\main\java\com\example\springbootthread" />
+      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-tools\src\main\java\com\example\springboottools" />
+      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-tools\src\main\java\com\example\springboottools\list" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.springboottools.model" />
       <recent name="com.example.springboottools.map" />
       <recent name="com.example.springbootquartz.job" />
       <recent name="com.example.springbootquartz.model" />
       <recent name="com.example.springbootquartz.client" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-easyes-elasticsearch\src\main\java\com\example\springbooteasyeselasticsearch" />
-      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-thread\src\main\java\com\example\springbootthread" />
-      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-tools\src\main\java\com\example\springboottools" />
-      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-tools\src\main\java\com\example\springboottools\list" />
-      <recent name="E:\IDEAWorkSpaces\SpringBoot\springboot-parents\springboot-quartz\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.AesTest">
@@ -460,7 +447,8 @@
       <workItem from="1682082499082" duration="740000" />
       <workItem from="1682389863217" duration="2450000" />
       <workItem from="1682393446910" duration="1281000" />
-      <workItem from="1682399022507" duration="779000" />
+      <workItem from="1682399022507" duration="865000" />
+      <workItem from="1682399933302" duration="789000" />
     </task>
     <task id="LOCAL-00001" summary="提交Spring Boot 学习 Demo">
       <created>1642830364193</created>
@@ -567,7 +555,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677816487537</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="增加 springboot-gateway 项目">
+      <created>1682399863553</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682399863553</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +607,8 @@
     <MESSAGE value="Thread 项目添加基础的知识&#10;Tools 项目添加对应集合的操作" />
     <MESSAGE value="添加加密和解密的方法" />
     <MESSAGE value="增加easy-es框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加easy-es框架" />
+    <MESSAGE value="增加 springboot-gateway 项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加 springboot-gateway 项目" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springboot_parents$GeneratorCodeConfig.ic" NAME="GeneratorCodeConfig Coverage Results" MODIFIED="1642735768097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
